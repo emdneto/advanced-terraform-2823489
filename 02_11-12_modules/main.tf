@@ -96,3 +96,7 @@ data "aws_ami" "aws-linux" {
     values = ["hvm"]
   }
 }
+
+output "vpc-arn" {
+  value = "vpc.arn"
+}
